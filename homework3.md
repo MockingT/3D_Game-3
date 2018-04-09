@@ -17,7 +17,7 @@ Terrian的属性中可以涂刷地形等：
 树木等可以直接导入到Assets中（系统自带）  
 ### 二. 编程实践：牧师与魔鬼 动作分离版  ###  
 对于ppt要求的理解是将动作抽象出来，所以本次文件目录如下：  
-![avatar](https://github.com/MockingT/3D_Game-3/blob/master/picture/3d5.png)  
+![avatar](https://github.com/MockingT/3D_Game-3/blob/master/picture/3d5.png)  
 实现效果和上周相同：  
 ![avatar](https://github.com/MockingT/3D_Game-3/blob/master/picture/3d6.png)  
 其中actionmanager.cs中包含了船的运动分解代码； Controlle.cs文件中删了枚举类型的使用，改用IQueryGameStatus接口来判断当前状态；，model.cs文件大致和上次类似。  
